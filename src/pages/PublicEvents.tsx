@@ -47,7 +47,6 @@ export default function PublicEvents() {
   const [paymentEventId, setPaymentEventId] = useState<string | null>(null);
   const [bookingLoading, setBookingLoading] = useState(false);
   const [bookingError, setBookingError] = useState<string | null>(null);
-  const [pendingGuestData, setPendingGuestData] = useState<any>(null);
 
   const resolveCategory = useCallback(
     (eventType: string | undefined, description: string | undefined): string => {

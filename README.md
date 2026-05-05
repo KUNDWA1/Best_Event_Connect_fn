@@ -76,13 +76,13 @@ npm run preview
 Use these seeded accounts to test different roles:
 
 - Vendor
-  - Email: `mihigo@gmail.com`
-  - Password: `12345678`
+  - Email: `divine@example.com`
+  - Password: `StrongPass123!`
 - Event Planner
-  - Email: `shyakaaimable555@gmail.com`
+  - Email: `mutuyimana11@gmail.com`
   - Password: `12345678`
 - Admin
-  - Email: `shyakaimable@gmail.com`
+  - Email: `divinekundwa@gmail.com`
   - Password: `12345678`
 
 ## Language support
