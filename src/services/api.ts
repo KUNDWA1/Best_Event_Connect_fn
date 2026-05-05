@@ -3,7 +3,7 @@ const REMOTE_API_BASE_URL = import.meta.env.VITE_API_BASE_URL
 const API_BASE_URL = REMOTE_API_BASE_URL.replace(/\/+$/, '')
 
 export type BackendUserRole = 'vendor' | 'planner' | 'admin' | 'event_planner'
-export type EventStatus = 'draft' | 'published' | 'completed' | 'cancelled'
+export type EventStatus = 'draft' | 'published' | 'completed' | 'cancelled' | 'active'
 export type EventType = 'wedding' | 'conference' | 'birthday' | 'corporate' | 'concert' | 'other'
 export type EventVisibility = 'public' | 'private'
 
