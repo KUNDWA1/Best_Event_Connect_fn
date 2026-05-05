@@ -1,0 +1,28 @@
+<svg width="32" height="32" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#9333ea" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Circle -->
+  <circle cx="50" cy="50" r="48" fill="url(#logoGradient)" />
+  
+  <!-- Calendar Icon -->
+  <rect x="25" y="30" width="50" height="45" rx="4" fill="white" opacity="0.95" />
+  <rect x="25" y="30" width="50" height="12" rx="4" fill="white" />
+  
+  <!-- Calendar Header Dots -->
+  <circle cx="35" cy="36" r="2" fill="#2563eb" />
+  <circle cx="65" cy="36" r="2" fill="#9333ea" />
+  
+  <!-- Connection Lines -->
+  <line x1="35" y1="50" x2="50" y2="60" stroke="#2563eb" stroke-width="3" stroke-linecap="round" />
+  <line x1="50" y1="60" x2="65" y2="50" stroke="#9333ea" stroke-width="3" stroke-linecap="round" />
+  
+  <!-- Connection Dots -->
+  <circle cx="35" cy="50" r="3.5" fill="#2563eb" />
+  <circle cx="50" cy="60" r="3.5" fill="#7c3aed" />
+  <circle cx="65" cy="50" r="3.5" fill="#9333ea" />
+</svg>
